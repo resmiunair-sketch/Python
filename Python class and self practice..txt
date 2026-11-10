@@ -1,0 +1,99 @@
+VS code
+Python: General-purpose programming language; interpreted PL; line-by-line execution. Dynamically typed PL; high-level PL (human-language related).
+Refer: Python enhancement proposal (PEP) PEP8  (set rules). 
+While writing code, indentation: (Keep a single space between all).
+Object-oriented programming (OOPS).
+An object: A value or data that consists of an identity. (Each and every thing in python is called Objects).
+A problem may be divided into small pieces to solve.
+Web Developer: Using Python.
+**********
+Print(a)
+Print(b)
+Print(type(a))
+Print(type(b))
+import sys
+print(sys.version)
+exit()
+python --version checking if python is installed on your computer? (And also to check the Python version)
+print() function
+
+
+
+Text output using quotation marks
+
+
+
+Basic arithmetic operations
+
+
+
+Displaying sentences in Python
+
+name="Resmi Nair"
+age=41
+qualification="BCA"
+salary=25000
+print(name, age, qualification, salary)
+Executed: Resmi Nair 41 BCA 25000
+
+the next exercise asks you to identify data types using type(), not just display the values.
+
+name="Resmi Nair"
+age=41
+qualification="BCA"
+salary=25000
+experience=8.5
+print(type(name))
+print(type(age))
+print(type(salary))
+print(type(experience))
+
+Answer: Resmi Nair 41 BCA 25000
+<class 'str'>
+<class 'int'>
+<class 'int'>
+<class 'float'>
+
+a=20
+b=6
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+Answer: 
+26
+14
+120
+3.3333333333333335
+2
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+
+print("My name is", name)
+print("My age is", age)
+
+Run: Enter your name: Resmi Nair
+Enter your age: 41
+My name is Resmi Nair
+My age is 41
+************************************************
+Your next practice – 5 marks
+Write a Python program that:
+1. Asks the user to enter their name.
+2. Asks the user to enter their qualification.
+3. Asks the user to enter their monthly salary.
+4. Displays all three details.
+Hint: Use input() and print()
+
+name=input("Enter your name:")
+qua=input("Enter your qualification:")
+exp=input("Enter your years of experience:")
+salary=input("Enter your last CTC")
+shift=input("Enter the preferable shift morning/evening:")
+print("My Name is", name)
+print("My Qualification is", qua)
+print("My experience is:", exp)
+print("My last month CTC was", salary)
+print("I am suitable for", shift)
+
